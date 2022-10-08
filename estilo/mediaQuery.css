@@ -44,7 +44,7 @@
 
     main #login {
         display: flex;
-        flex-direction: row;
+        flex-direction: row-reverse;
         width: 950px;
     }
 
@@ -62,5 +62,13 @@
         width: 100%;
         height: 100%;
         object-fit: cover;
+    }
+
+    main #login #formulario-div p {
+        font-size: 1.2em;
+    }
+
+    main #login #formulario-div h1 {
+        font-size: 2em;
     }
 }

@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="estilo/style.css">
 
     <link rel="stylesheet" href="estilo/mediaQuery.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <main>
@@ -20,7 +23,18 @@
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta</p>
 
                 <form action="#" method="post">
-
+                    <div class="campos-div">
+                        <span class="material-icons">person</span>
+                        <input type="email" name="tmail" id="cmail" placeholder="Seu e-mail" required>
+                        <label for="cmail">Login</label>
+                    </div>
+                    <div class="campos-div">
+                        <span class="material-icons">vpn_key</span>
+                        <input type="password" name="tsenha" id="csenha" placeholder="Sua senha" required>
+                        <label for="csenha">Senha</label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a href="esqueci.html">Esqueci a senha <span class="material-icons">mail</span></a>
                 </form>
             </div>
         </section>

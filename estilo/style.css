@@ -57,3 +57,12 @@ main #login #imagem-div{
 main #login #formulario-div{
     padding: 10px;
 }
+
+main #login #formulario-div h1 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+main #login #formulario-div p {
+    font-size: .8em;
+}
