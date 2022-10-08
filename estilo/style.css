@@ -66,3 +66,52 @@ main #login #formulario-div h1 {
 main #login #formulario-div p {
     font-size: .8em;
 }
+
+main #login #formulario-div .campos-div {
+    background-color: #5f2c82;
+    margin: 5px 0;
+    width: 100%;
+    height: 40px;
+}
+
+main #login #formulario-div .campos-div label {
+    display: none;
+}
+
+main #login #formulario-div form .botao {
+    font-size: 1em;
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: var(--corprimaria);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+main #login #formulario-div form .botao:hover {
+    background-color: #26615f;
+}
+
+main #login #formulario-div form a {
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: white;
+    color: #26615f;
+    text-decoration: none;
+    border: 1px solid #26615f;
+    border-radius: 5px;
+}
+
+main #login #formulario-div form a:hover {
+    background-color: #26615f;
+    color: #49a09d;
+}
+
+main #login #formulario-div form a span {
+    font-size: .8em;
+}
