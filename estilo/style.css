@@ -43,7 +43,7 @@ main {
 main #login {
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 480px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.521);
@@ -72,10 +72,35 @@ main #login #formulario-div .campos-div {
     margin: 5px 0;
     width: 100%;
     height: 40px;
+    border-radius: 8px;
+    border: 2px solid #5f2c82;
 }
 
 main #login #formulario-div .campos-div label {
     display: none;
+}
+
+.campos-div span {
+    color: white;
+    /* background-color: black; */
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campos-div input {
+    background-color: #49a09d;
+    font-size: 1em;
+    width: calc(100% - 45px);
+    border-radius: 8px;
+    height: 100%;
+    border: none;
+    padding: 4px;
+    transform: translateY(-12px);
+}
+
+.campos-div input:focus-within {
+    background-color: white;
 }
 
 main #login #formulario-div form .botao {
